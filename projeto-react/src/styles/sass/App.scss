@@ -1,0 +1,15 @@
+@import '_vars.scss';
+
+.App{
+    h1{
+        text-align: center;
+        color: $main-color;
+        font-size: 20px;
+    }
+
+    h3{
+        text-align: center;
+        color: $secondary-color;
+        font-size: 15px;
+    }
+}

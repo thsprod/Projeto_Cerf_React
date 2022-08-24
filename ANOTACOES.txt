@@ -1,0 +1,8 @@
+Branches // Ramificações no Git
+
+master -> 0.0.1 
+
+git checkout -b login // Crie uma nova Branches
+
+master -> 0.0.1
+login ->  0.0.2

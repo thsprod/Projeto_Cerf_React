@@ -1,0 +1,140 @@
+body{
+    background-image:url(./blurred_purple-wallpaper-1920x1200.jpg);
+    background-size: cover;
+}
+#header {
+    border-bottom: 2px solid black;
+    background-color: rgba(240, 248, 255, 0.267);
+}
+
+.itemsMenu {
+    display: flex;
+    justify-content: center;
+}
+
+.itemsMenu li {
+    margin: 5em;
+    background-color: #85217e;
+    padding: 5px 50px;
+    list-style-type: none;
+    border-radius: 50px;
+    color: aliceblue;
+    
+}
+#nome{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: #85217e8e;
+}
+#biografiaXlr8 {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#biografiaXlr8 img {
+    margin: 10px;
+    border-radius: 999px;
+}
+
+#biografiaXlr8 .textoBiografia {
+    font-size: 18px;
+    margin: 40px;
+    background-color: rgba(240, 255, 255, 0.589);
+    border:5px solid #8e26a8;
+}
+
+#minhasHabilidades {
+    max-width: 60%;
+    margin: 0px auto;
+    text-align: left;
+}
+
+#minhasHabilidades .js {
+    background-color: #b332a8;
+    width: 100%;
+    height: 30px;
+    border: 2px solid black;
+}
+
+#minhasHabilidades .js .jsprogresso {
+    background-color: #ec9961;
+    height: 100%;
+    width: 30%;
+    text-align: right;
+    font-size: 25px;
+}
+
+#velocidade {
+    max-width: 100%;
+    margin: 0px;
+    text-align: left;
+}
+
+#velocidade .velocidadeBarra {
+    background-color: #b332a8;
+    width: 100%;
+    height: 30px;
+    border: 2px solid black;
+}
+
+#velocidade .velocidadeBarra .velocidadeProgresso {
+    background-color: #ec9961;
+    height: 100%;
+    width: 99%;
+    text-align: right;
+    font-size: 25px;
+}
+
+#saudeBarra {
+    max-width: 100%;
+    margin: 0px;
+    text-align: left;
+}
+
+#saudeBarra .saudeBarra {
+    background-color: #b332a8;
+    width: 100%;
+    height: 30px;
+    border: 2px solid black;
+}
+
+#saudeBarra .saudeBarra .saudeBarraProgresso {
+    background-color: #ec9961;
+    height: 100%;
+    width: 70%;
+    text-align: right;
+    font-size: 25px;
+}
+#minhasExperiencias{
+    max-width: 60%;
+    margin: 0px auto;
+    text-align: center;
+}
+#minhasExperiencias .blocos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#minhasExperiencias p{
+    background-color: #b363ac;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid black; 
+}
+#footer{
+    background-color: #a461b488;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#footer a{
+    color: aqua;
+    margin-top: 10px;
+}

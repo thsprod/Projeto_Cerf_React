@@ -1,0 +1,24 @@
+.divTest{
+    background-color: rgb(255, 0, 0);
+}
+@media (min-width:768px){
+    .divTest{
+        background-color: blue;
+    }
+}
+@media (max-width:768px){
+    .divTest{
+        background-color: rgb(26, 173, 13);
+    }
+}
+@media (min-width:400px){
+    .divTest{
+        background-color: rgb(216, 195, 3);
+    }
+}
+.divTest{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(70, 209, 51);
+   width: 100vh;
+}

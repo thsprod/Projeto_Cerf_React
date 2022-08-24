@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 10: Melhores Práticas HTML</title>
+</head>
+
+<body>
+    <style>
+        .navigation-list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navigation-list li {
+            list-style: none;
+            margin: 0 10px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main-text h1,
+        .about h2,
+        .about p,
+        .contact h3 {
+            text-align: center;
+        }
+        
+        .about figure {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .about figcaption {
+            background-color: aliceblue;
+            width: 50%;
+            text-align: center;
+        }
+
+        .about img {
+            width: 50%;
+            height: auto;
+        }
+
+        .contact form, .text-area {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .contact form label {
+            margin: 10px 0;
+        }
+
+        .footer1 {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+    </style>
+    <nav>
+        <ul class="navigation-list">
+            <li><a href="#mainText">Home</a></li>
+            <li><a href="#aboutMe">Sobre mim</a></li>
+            <li><a href="#contactMe">Contato</a></li>
+            <li><a href="#projects">Projetos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="main-text" id="mainText">
+            <h1>Bem vindo ao meu site</h1>
+            <p class="main-paragraph">Olá visitante, eu sou produtor musical e beatmaker</p>
+        </div>
+        <div class="about" id="aboutMe">
+            <h2>Sobre mim</h2>
+            <figure>
+                <img src="./images/IMAGEM.jpg" alt="Estúdio">
+                <figcaption>Esse é meu estúdio</figcaption>
+            </figure>
+            <p>Sou nascido e criado em ribeirão preto, tenho 20 anos e sou beatmaker e produtor musical</p>
+        </div>
+        <div class="contact" id="contactMe">
+            <h3>Entre em contato comigo</h3>
+            <form>
+                <label for="name">
+                    Nome:
+                    <input type="text" placeholder="Seu nome" required name="name">
+                </label>
+                <label for="email">
+                    Email:
+                    <input type="email" placeholder="Seu melhor email" required name="email">
+                </label>
+                <label for="message" class="text-area">
+                    Mensagem:
+                    <textarea>
+                    </textarea>
+                </label>
+                <button type="submit">Enviar</button>
+            </form>
+
+        </div>
+        <div class="projects" id="projects">
+            <h3>Segue aqui meus projetos</h3>
+            <ul>
+                <li class="projects">Projeto 1</li>
+                <li class="projects">Projeto 2</li>
+                <li class="projects">Projeto 3</li>
+                <li class="projects">Projeto 4</li>
+                <li class="projects">Projeto 5</li>
+            </ul>
+
+        </div>
+        <footer class="footer1">
+            Me siga no <a href="https://instagram.com/thsprod" target="_blank">Instagram</a>    
+        </footer>
+
+    </main>
+</body>
+
+</html>

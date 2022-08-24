@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 9 Formulários HTML</title>
+</head>
+<body>
+    <h1>Músicas mais ouvidas no brasil em 2022</h1>
+    <h2>Spotify</h2>
+    <ol>
+        <li>
+            Mal Feito - Hugo & Guilherme, Marília Mendonça.
+       </li>
+        <li>
+            Sentadona (Remix) - s2Davi Kneip, Mc Frog, Dj Gabriel do Borel, Luísa Sonza.
+        </li>
+        <li>
+            Aí Cê Me Quebra - César Menotti & Fabiano, Gusttavo Lima.
+        </li>
+        <li>
+            Homem É Tudo Igual - Simone & Simaria.
+        </li>
+        <li>
+            Envolver - Anitta.
+        </li>
+        <li>
+            Dançarina - PEDRO SAMPAIO, Mc Pedrinho.
+
+        </li>
+    </ol>
+<h3>Youtube</h3>
+<ol>
+    <li>Termina Comigo Antes - Gusttavo Lima</li>
+    <li>Desenrola Bate Joga de Ladin - L7NNON & OS HAWAIANOS</li>
+    <li>No Ouvidinho - Felipe Amorim</li>
+    <li>Sentadona - Luisa Sonza, Davi Kneip, Mc Frog, Dj Gabriel do Borel </li>
+    <li>Malvada - Zé Felipe</li>
+    <li>Fim de Semana no Rio - Teto</li>
+</ol>
+
+<p><strong>As minhas preferidas segundo meu Spotify</strong></p>
+<ul>
+    <li>Eazy - Kanye West, The Game</li>
+    <li>My Type - UnoTheActivist</li>
+    <li>12 Stout Street - Rx Papi, Gud</li>
+    <li>Look Easy - Kaytranada, Lucky Daye</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <form>
+        <label for="músicas">
+          Qual dessas músicas é sua favorita? e se nenhuma dessas for a sua digite a sua preferida seguir: 
+            <input type="text" placeholder="Sua música favorita" id="musica" required>
+        </label>
+        <label for="genero">
+            Genero:
+            <select name="genero">
+                <option value="Sertanejo">Sertanejo</option>
+                <option value="Pop">Pop</option>
+                <option value="Trap">Trap</option>
+                <option value="Rock">Rock</option>
+                <option value="Outro">Outro</option>
+            </select>
+        </label>
+        <label for="Nome">
+            Nome:
+            <input type="text"placeholder = "Digite o seu nome" required>
+        </label>
+        <label for="email">
+            Email:
+            <input type="email" placeholder = "Digite seu email" required>
+        </label>
+<button type = "submit">Enviar</button>
+                    
+
+    </form>
+    <p>Todos os dados foram retirados de: <br>
+       <a href="https://maistocadas.mus.br/youtube">Mais Tocadas</a>
+      <a href="https://open.spotify.com/playlist/0qztaPe5i2nfjuTnYHWSTE">Spotify</a>
+    </p>
+    <p>Escrito por <strong>Thales Silva</strong></p>
+</body>
+</html>
